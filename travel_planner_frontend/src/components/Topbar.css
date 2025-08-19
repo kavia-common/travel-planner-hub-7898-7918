@@ -1,0 +1,21 @@
+.topbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--white-color);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.topbar .user-info span {
+  margin-right: 1rem;
+}
+
+.topbar .user-info button {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
